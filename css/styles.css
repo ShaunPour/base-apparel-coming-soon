@@ -43,3 +43,30 @@ input[type="email"] {
     background-color: hsl(0, 93%, 68%);
     width: 15vw;
 }
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #F8BFBF;
+}
+
+.error-img {
+    position: relative;
+    left: 60vw;
+    bottom: 2.8vh;
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+.error-msg {
+    color: #F96464;
+    position: relative;
+    left: 2em;
+    display: none;
+}
+
+.border-error {
+    border: 2px solid #F96464;
+}
