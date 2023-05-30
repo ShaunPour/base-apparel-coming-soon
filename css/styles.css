@@ -52,21 +52,27 @@ input[type="email"] {
 .error-img {
     position: relative;
     left: 60vw;
-    bottom: 2.8vh;
-    display: none;
-}
-
-.show {
-    display: initial;
+    bottom: 7.3vh;
 }
 
 .error-msg {
     color: #F96464;
     position: relative;
     left: 2em;
+}
+
+.error-div {
     display: none;
 }
 
 .border-error {
     border: 2px solid #F96464;
+}
+
+.show {
+    display: block;
+}
+
+.msg-show {
+    display:inline;
 }
