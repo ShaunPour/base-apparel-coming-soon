@@ -4,6 +4,11 @@
     align-items: center;
     justify-content: center;
     color: #CE9898;
+    font-family: 'Josefin Sans','Times New Roman', Times, serif;
+}
+
+.desktop-header {
+    display: none;
 }
 
 span {
@@ -13,12 +18,30 @@ span {
 .title {
     font-weight: 600;
     color: hsl(0, 6%, 24%);
+    width: 45%;
+    text-align: center;
+    position: relative;
+    left: 2.7em;
+    margin: 1em 0 1em 0;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 10.83px;
+}
+
+.main-txt {
+    width: 85%;
+    text-align: center;
+    position: relative;
+    left: 1.5em;
+    margin-bottom: 3em;
 }
 
 form {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin-left: 1.3em;
 }
 
 input[type="email"], .submit {
@@ -75,4 +98,72 @@ input[type="email"] {
 
 .msg-show {
     display:inline;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        line-height: 64px !important;
+        letter-spacing: 17.32px !important;
+    }
+
+    .title {
+        line-height: 71px;
+        letter-spacing: 17.32px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .logo {
+        position: absolute;
+        top: 2em;
+        left: 2em;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .desktop-header {
+        display: initial;
+        width: 54vw;
+        height: 101vh;
+        position: relative;
+        right: -1em;
+        top: -1em;
+    }
+
+    main {
+        width: 45%;
+    }
+
+    .main-txt {
+        line-height: 28px;
+        width: 60%;
+        left: 3.5em;
+    }
+
+    form {
+        width: 55%;
+        left: 5em;
+    }
+
+    .submit {
+        position: absolute;
+        left: 23.1em;
+        width: 15%;
+    }
+
+    .error-msg {
+        left: 9em;
+    }
+
+    .error-img {
+        left: 26.6vw;
+    }
 }
