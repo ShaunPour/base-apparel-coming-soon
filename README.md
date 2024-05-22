@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Solution Repository](https://github.com/DarkPhoenixNinja92/base-apparel-coming-soon)
-- Live Site URL: [GitHub Pages Site Link](https://darkphoenixninja92.github.io/base-apparel-coming-soon)
+- Solution URL: [GitHub Solution Repository](https://github.com/ShaunPour/base-apparel-coming-soon)
+- Live Site URL: [GitHub Pages Site Link](https://shaunpour.github.io/base-apparel-coming-soon)
 
 ## My process
 
